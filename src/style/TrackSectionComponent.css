@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/Users/mouraddaghar/Desktop/db-frontend/src/assets/db.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.9);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ec0015;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c60014;
+  }
+
+  .error-box {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: #721c24;
+    margin: 0;
+  }
+  
+  p.error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+
+  .track-section-list {
+    padding-left: 20px;
+  }
+  
+  .track-section-list li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .track-section-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .track-section-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .track-section-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .track-section-box li {
+    margin-bottom: 5px;
+    
+  }
